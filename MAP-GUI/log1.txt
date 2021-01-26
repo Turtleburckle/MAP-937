@@ -1,0 +1,107 @@
+[ProgramState 1:
+Executable Stack 1:
+[Compound model.statement: model.statements.VariableDeclarationStatement@9807454 and [Compound model.statement: [Assign to v the value [Value Expression for value = [ INT value 2]]]
+ and [Print ([VariableExpression for ID = v]) ] ]
+SymbolicTable 1:
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Compound model.statement: [Assign to v the value [Value Expression for value = [ INT value 2]]]
+ and [Print ([VariableExpression for ID = v]) ]
+model.statements.VariableDeclarationStatement@9807454
+SymbolicTable 1:
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Compound model.statement: [Assign to v the value [Value Expression for value = [ INT value 2]]]
+ and [Print ([VariableExpression for ID = v]) ]
+model.statements.VariableDeclarationStatement@9807454
+SymbolicTable 1:
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Compound model.statement: [Assign to v the value [Value Expression for value = [ INT value 2]]]
+ and [Print ([VariableExpression for ID = v]) ]
+SymbolicTable 1:
+Key: v --> Value: [ INT value 0]
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Compound model.statement: [Assign to v the value [Value Expression for value = [ INT value 2]]]
+ and [Print ([VariableExpression for ID = v]) ]
+SymbolicTable 1:
+Key: v --> Value: [ INT value 0]
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print ([VariableExpression for ID = v])
+[Assign to v the value [Value Expression for value = [ INT value 2]]]
+
+SymbolicTable 1:
+Key: v --> Value: [ INT value 0]
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print ([VariableExpression for ID = v])
+[Assign to v the value [Value Expression for value = [ INT value 2]]]
+
+SymbolicTable 1:
+Key: v --> Value: [ INT value 0]
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print ([VariableExpression for ID = v])
+SymbolicTable 1:
+Key: v --> Value: [ INT value 2]
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print ([VariableExpression for ID = v])
+SymbolicTable 1:
+Key: v --> Value: [ INT value 2]
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+SymbolicTable 1:
+Key: v --> Value: [ INT value 2]
+Output 1:
+[ INT value 2]Heap 1:
+]
+5_____________________
+

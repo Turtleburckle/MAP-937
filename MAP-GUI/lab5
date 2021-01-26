@@ -1,0 +1,423 @@
+[ProgramState 1:
+Executable Stack 1:
+[Print (model.expression.ReadHeapExpression@60addb54)
+[Print ([VariableExpression for ID = v])
+model.statements.ForkStatement@69d9c55
+[New model.statement: varName-> a, expression -> [Value Expression for value = [ INT value 22]]]
+
+[Assign to v the value [Value Expression for value = [ INT value 10]]]
+
+model.statements.VariableDeclarationStatement@5d5eef3d
+model.statements.VariableDeclarationStatement@56f4468b
+SymbolicTable 1:
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print (model.expression.ReadHeapExpression@60addb54)
+[Print ([VariableExpression for ID = v])
+model.statements.ForkStatement@69d9c55
+[New model.statement: varName-> a, expression -> [Value Expression for value = [ INT value 22]]]
+
+[Assign to v the value [Value Expression for value = [ INT value 10]]]
+
+model.statements.VariableDeclarationStatement@5d5eef3d
+SymbolicTable 1:
+Key: v --> Value: [ INT value 0]
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print (model.expression.ReadHeapExpression@60addb54)
+[Print ([VariableExpression for ID = v])
+model.statements.ForkStatement@69d9c55
+[New model.statement: varName-> a, expression -> [Value Expression for value = [ INT value 22]]]
+
+[Assign to v the value [Value Expression for value = [ INT value 10]]]
+
+model.statements.VariableDeclarationStatement@5d5eef3d
+SymbolicTable 1:
+Key: v --> Value: [ INT value 0]
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print (model.expression.ReadHeapExpression@60addb54)
+[Print ([VariableExpression for ID = v])
+model.statements.ForkStatement@69d9c55
+[New model.statement: varName-> a, expression -> [Value Expression for value = [ INT value 22]]]
+
+[Assign to v the value [Value Expression for value = [ INT value 10]]]
+
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 0, location: INT]
+
+Key: v --> Value: [ INT value 0]
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print (model.expression.ReadHeapExpression@60addb54)
+[Print ([VariableExpression for ID = v])
+model.statements.ForkStatement@69d9c55
+[New model.statement: varName-> a, expression -> [Value Expression for value = [ INT value 22]]]
+
+[Assign to v the value [Value Expression for value = [ INT value 10]]]
+
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 0, location: INT]
+
+Key: v --> Value: [ INT value 0]
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print (model.expression.ReadHeapExpression@60addb54)
+[Print ([VariableExpression for ID = v])
+model.statements.ForkStatement@69d9c55
+[New model.statement: varName-> a, expression -> [Value Expression for value = [ INT value 22]]]
+
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 0, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print (model.expression.ReadHeapExpression@60addb54)
+[Print ([VariableExpression for ID = v])
+model.statements.ForkStatement@69d9c55
+[New model.statement: varName-> a, expression -> [Value Expression for value = [ INT value 22]]]
+
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 0, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print (model.expression.ReadHeapExpression@60addb54)
+[Print ([VariableExpression for ID = v])
+model.statements.ForkStatement@69d9c55
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 1:
+Heap 1:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print (model.expression.ReadHeapExpression@60addb54)
+[Print ([VariableExpression for ID = v])
+model.statements.ForkStatement@69d9c55
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 1:
+Heap 1:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print (model.expression.ReadHeapExpression@60addb54)
+[Print ([VariableExpression for ID = v])
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 1:
+Heap 1:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound model.statement: model.statements.WriteHeapStatement@55f3ddb1 and [Compound model.statement: [Assign to v the value [Value Expression for value = [ INT value 32]]]
+ and [Compound model.statement: [Print ([VariableExpression for ID = v]) and [Print (model.expression.ReadHeapExpression@8bd1b6a) ] ] ]
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 2:
+Heap 2:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print (model.expression.ReadHeapExpression@60addb54)
+[Print ([VariableExpression for ID = v])
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 1:
+Heap 1:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound model.statement: model.statements.WriteHeapStatement@55f3ddb1 and [Compound model.statement: [Assign to v the value [Value Expression for value = [ INT value 32]]]
+ and [Compound model.statement: [Print ([VariableExpression for ID = v]) and [Print (model.expression.ReadHeapExpression@8bd1b6a) ] ] ]
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 2:
+Heap 2:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print (model.expression.ReadHeapExpression@60addb54)
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 1:
+[ INT value 10]Heap 1:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound model.statement: [Assign to v the value [Value Expression for value = [ INT value 32]]]
+ and [Compound model.statement: [Print ([VariableExpression for ID = v]) and [Print (model.expression.ReadHeapExpression@8bd1b6a) ] ]
+model.statements.WriteHeapStatement@55f3ddb1
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 2:
+[ INT value 10]Heap 2:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print (model.expression.ReadHeapExpression@60addb54)
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 1:
+[ INT value 10]Heap 1:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound model.statement: [Assign to v the value [Value Expression for value = [ INT value 32]]]
+ and [Compound model.statement: [Print ([VariableExpression for ID = v]) and [Print (model.expression.ReadHeapExpression@8bd1b6a) ] ]
+model.statements.WriteHeapStatement@55f3ddb1
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 2:
+[ INT value 10]Heap 2:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 1:
+[ INT value 10][ INT value 22]Heap 1:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound model.statement: [Assign to v the value [Value Expression for value = [ INT value 32]]]
+ and [Compound model.statement: [Print ([VariableExpression for ID = v]) and [Print (model.expression.ReadHeapExpression@8bd1b6a) ] ]
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 2:
+[ INT value 10][ INT value 22]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound model.statement: [Assign to v the value [Value Expression for value = [ INT value 32]]]
+ and [Compound model.statement: [Print ([VariableExpression for ID = v]) and [Print (model.expression.ReadHeapExpression@8bd1b6a) ] ]
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 2:
+[ INT value 10][ INT value 22]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound model.statement: [Print ([VariableExpression for ID = v]) and [Print (model.expression.ReadHeapExpression@8bd1b6a) ]
+[Assign to v the value [Value Expression for value = [ INT value 32]]]
+
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 2:
+[ INT value 10][ INT value 22]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound model.statement: [Print ([VariableExpression for ID = v]) and [Print (model.expression.ReadHeapExpression@8bd1b6a) ]
+[Assign to v the value [Value Expression for value = [ INT value 32]]]
+
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 2:
+[ INT value 10][ INT value 22]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound model.statement: [Print ([VariableExpression for ID = v]) and [Print (model.expression.ReadHeapExpression@8bd1b6a) ]
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 32]
+Output 2:
+[ INT value 10][ INT value 22]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound model.statement: [Print ([VariableExpression for ID = v]) and [Print (model.expression.ReadHeapExpression@8bd1b6a) ]
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 32]
+Output 2:
+[ INT value 10][ INT value 22]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Print (model.expression.ReadHeapExpression@8bd1b6a)
+[Print ([VariableExpression for ID = v])
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 32]
+Output 2:
+[ INT value 10][ INT value 22]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Print (model.expression.ReadHeapExpression@8bd1b6a)
+[Print ([VariableExpression for ID = v])
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 32]
+Output 2:
+[ INT value 10][ INT value 22]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Print (model.expression.ReadHeapExpression@8bd1b6a)
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 32]
+Output 2:
+[ INT value 10][ INT value 22][ INT value 32]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Print (model.expression.ReadHeapExpression@8bd1b6a)
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 32]
+Output 2:
+[ INT value 10][ INT value 22][ INT value 32]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 32]
+Output 2:
+[ INT value 10][ INT value 22][ INT value 32][ INT value 30]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
