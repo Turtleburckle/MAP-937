@@ -1,0 +1,432 @@
+[ProgramState 1:
+Executable Stack 1:
+[Print ([ ReadHeap ([VariableExpression = a])])
+[Print ([VariableExpression = v])
+[ Fork ( [Compound statement : [WriteHeap( a , [ValueExpr ([ INT value 30])])] and [Compound statement : [Assign to v the value [ValueExpr ([ INT value 32])]]
+ and [Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ] ] ] )]
+[New model.statement: varName-> a, expression -> [ValueExpr ([ INT value 22])]]
+
+[Assign to v the value [ValueExpr ([ INT value 10])]]
+
+model.statements.VariableDeclarationStatement@3d646c37
+model.statements.VariableDeclarationStatement@41cf53f9
+SymbolicTable 1:
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print ([ ReadHeap ([VariableExpression = a])])
+[Print ([VariableExpression = v])
+[ Fork ( [Compound statement : [WriteHeap( a , [ValueExpr ([ INT value 30])])] and [Compound statement : [Assign to v the value [ValueExpr ([ INT value 32])]]
+ and [Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ] ] ] )]
+[New model.statement: varName-> a, expression -> [ValueExpr ([ INT value 22])]]
+
+[Assign to v the value [ValueExpr ([ INT value 10])]]
+
+model.statements.VariableDeclarationStatement@3d646c37
+SymbolicTable 1:
+Key: v --> Value: [ INT value 0]
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print ([ ReadHeap ([VariableExpression = a])])
+[Print ([VariableExpression = v])
+[ Fork ( [Compound statement : [WriteHeap( a , [ValueExpr ([ INT value 30])])] and [Compound statement : [Assign to v the value [ValueExpr ([ INT value 32])]]
+ and [Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ] ] ] )]
+[New model.statement: varName-> a, expression -> [ValueExpr ([ INT value 22])]]
+
+[Assign to v the value [ValueExpr ([ INT value 10])]]
+
+model.statements.VariableDeclarationStatement@3d646c37
+SymbolicTable 1:
+Key: v --> Value: [ INT value 0]
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print ([ ReadHeap ([VariableExpression = a])])
+[Print ([VariableExpression = v])
+[ Fork ( [Compound statement : [WriteHeap( a , [ValueExpr ([ INT value 30])])] and [Compound statement : [Assign to v the value [ValueExpr ([ INT value 32])]]
+ and [Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ] ] ] )]
+[New model.statement: varName-> a, expression -> [ValueExpr ([ INT value 22])]]
+
+[Assign to v the value [ValueExpr ([ INT value 10])]]
+
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 0, location: INT]
+
+Key: v --> Value: [ INT value 0]
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print ([ ReadHeap ([VariableExpression = a])])
+[Print ([VariableExpression = v])
+[ Fork ( [Compound statement : [WriteHeap( a , [ValueExpr ([ INT value 30])])] and [Compound statement : [Assign to v the value [ValueExpr ([ INT value 32])]]
+ and [Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ] ] ] )]
+[New model.statement: varName-> a, expression -> [ValueExpr ([ INT value 22])]]
+
+[Assign to v the value [ValueExpr ([ INT value 10])]]
+
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 0, location: INT]
+
+Key: v --> Value: [ INT value 0]
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print ([ ReadHeap ([VariableExpression = a])])
+[Print ([VariableExpression = v])
+[ Fork ( [Compound statement : [WriteHeap( a , [ValueExpr ([ INT value 30])])] and [Compound statement : [Assign to v the value [ValueExpr ([ INT value 32])]]
+ and [Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ] ] ] )]
+[New model.statement: varName-> a, expression -> [ValueExpr ([ INT value 22])]]
+
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 0, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print ([ ReadHeap ([VariableExpression = a])])
+[Print ([VariableExpression = v])
+[ Fork ( [Compound statement : [WriteHeap( a , [ValueExpr ([ INT value 30])])] and [Compound statement : [Assign to v the value [ValueExpr ([ INT value 32])]]
+ and [Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ] ] ] )]
+[New model.statement: varName-> a, expression -> [ValueExpr ([ INT value 22])]]
+
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 0, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 1:
+Heap 1:
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print ([ ReadHeap ([VariableExpression = a])])
+[Print ([VariableExpression = v])
+[ Fork ( [Compound statement : [WriteHeap( a , [ValueExpr ([ INT value 30])])] and [Compound statement : [Assign to v the value [ValueExpr ([ INT value 32])]]
+ and [Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ] ] ] )]
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 1:
+Heap 1:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print ([ ReadHeap ([VariableExpression = a])])
+[Print ([VariableExpression = v])
+[ Fork ( [Compound statement : [WriteHeap( a , [ValueExpr ([ INT value 30])])] and [Compound statement : [Assign to v the value [ValueExpr ([ INT value 32])]]
+ and [Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ] ] ] )]
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 1:
+Heap 1:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print ([ ReadHeap ([VariableExpression = a])])
+[Print ([VariableExpression = v])
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 1:
+Heap 1:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound statement : [WriteHeap( a , [ValueExpr ([ INT value 30])])] and [Compound statement : [Assign to v the value [ValueExpr ([ INT value 32])]]
+ and [Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ] ] ]
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 2:
+Heap 2:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print ([ ReadHeap ([VariableExpression = a])])
+[Print ([VariableExpression = v])
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 1:
+Heap 1:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound statement : [WriteHeap( a , [ValueExpr ([ INT value 30])])] and [Compound statement : [Assign to v the value [ValueExpr ([ INT value 32])]]
+ and [Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ] ] ]
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 2:
+Heap 2:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print ([ ReadHeap ([VariableExpression = a])])
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 1:
+[ INT value 10]Heap 1:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound statement : [Assign to v the value [ValueExpr ([ INT value 32])]]
+ and [Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ] ]
+[WriteHeap( a , [ValueExpr ([ INT value 30])])]
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 2:
+[ INT value 10]Heap 2:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+[Print ([ ReadHeap ([VariableExpression = a])])
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 1:
+[ INT value 10]Heap 1:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound statement : [Assign to v the value [ValueExpr ([ INT value 32])]]
+ and [Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ] ]
+[WriteHeap( a , [ValueExpr ([ INT value 30])])]
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 2:
+[ INT value 10]Heap 2:
+Key: 1 --> Value: [ INT value 22]
+]
+5_____________________
+
+[ProgramState 1:
+Executable Stack 1:
+SymbolicTable 1:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 1:
+[ INT value 10][ INT value 22]Heap 1:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound statement : [Assign to v the value [ValueExpr ([ INT value 32])]]
+ and [Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ] ]
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 2:
+[ INT value 10][ INT value 22]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound statement : [Assign to v the value [ValueExpr ([ INT value 32])]]
+ and [Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ] ]
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 2:
+[ INT value 10][ INT value 22]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ]
+[Assign to v the value [ValueExpr ([ INT value 32])]]
+
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 2:
+[ INT value 10][ INT value 22]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ]
+[Assign to v the value [ValueExpr ([ INT value 32])]]
+
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 10]
+Output 2:
+[ INT value 10][ INT value 22]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ]
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 32]
+Output 2:
+[ INT value 10][ INT value 22]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Compound statement : [Print ([VariableExpression = v]) and [Print ([ ReadHeap ([VariableExpression = a])]) ]
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 32]
+Output 2:
+[ INT value 10][ INT value 22]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Print ([ ReadHeap ([VariableExpression = a])])
+[Print ([VariableExpression = v])
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 32]
+Output 2:
+[ INT value 10][ INT value 22]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Print ([ ReadHeap ([VariableExpression = a])])
+[Print ([VariableExpression = v])
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 32]
+Output 2:
+[ INT value 10][ INT value 22]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Print ([ ReadHeap ([VariableExpression = a])])
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 32]
+Output 2:
+[ INT value 10][ INT value 22][ INT value 32]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+[Print ([ ReadHeap ([VariableExpression = a])])
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 32]
+Output 2:
+[ INT value 10][ INT value 22][ INT value 32]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+
+[ProgramState 2:
+Executable Stack 2:
+SymbolicTable 2:
+Key: a --> Value: [ REF value address: 1, location: INT]
+
+Key: v --> Value: [ INT value 32]
+Output 2:
+[ INT value 10][ INT value 22][ INT value 32][ INT value 30]Heap 2:
+Key: 1 --> Value: [ INT value 30]
+]
+5_____________________
+

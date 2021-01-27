@@ -1,0 +1,76 @@
+ProgramState 1
+Executable Stack 1
+--------------------
+| [Print ([VariableExpression = v])
+| v=[ValueExpr ([ INT value 2])];
+| int v;
+
+Symbolic Table 1
+--------------------
+Output 1
+--------------------
+Heap Table 1
+--------------------
+
+ProgramState 1
+Executable Stack 1
+--------------------
+| [Print ([VariableExpression = v])
+| v=[ValueExpr ([ INT value 2])];
+Symbolic Table 1
+--------------------
+| Key: v -> Value: [ INT value 0]
+Output 1
+--------------------
+Heap Table 1
+--------------------
+
+ProgramState 1
+Executable Stack 1
+--------------------
+| [Print ([VariableExpression = v])
+| v=[ValueExpr ([ INT value 2])];
+Symbolic Table 1
+--------------------
+| Key: v -> Value: [ INT value 0]
+Output 1
+--------------------
+Heap Table 1
+--------------------
+
+ProgramState 1
+Executable Stack 1
+--------------------
+| [Print ([VariableExpression = v])
+Symbolic Table 1
+--------------------
+| Key: v -> Value: [ INT value 2]
+Output 1
+--------------------
+Heap Table 1
+--------------------
+
+ProgramState 1
+Executable Stack 1
+--------------------
+| [Print ([VariableExpression = v])
+Symbolic Table 1
+--------------------
+| Key: v -> Value: [ INT value 2]
+Output 1
+--------------------
+Heap Table 1
+--------------------
+
+ProgramState 1
+Executable Stack 1
+--------------------
+Symbolic Table 1
+--------------------
+| Key: v -> Value: [ INT value 2]
+Output 1
+--------------------
+| [ INT value 2]
+Heap Table 1
+--------------------
+

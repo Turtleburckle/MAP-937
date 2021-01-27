@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="837.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ProgramList">
+  <tabs>
+    <Tab text="MAIN">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="476.0" prefWidth="661.0">
+               <children>
+                  <TextField fx:id="nrOfProgramStates" layoutX="164.0" layoutY="14.0" />
+                  <Text layoutX="14.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of Program States" />
+                  <TableView fx:id="heapTableView" layoutX="16.0" layoutY="71.0" prefHeight="200.0" prefWidth="296.0">
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+                  <Text layoutX="134.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Heap Table" textAlignment="CENTER" />
+                  <ListView fx:id="outputList" layoutX="16.0" layoutY="271.0" prefHeight="200.0" prefWidth="146.0" />
+                  <ListView fx:id="fileTable" layoutX="162.0" layoutY="271.0" prefHeight="200.0" prefWidth="150.0" />
+                  <Text layoutX="70.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Output" />
+                  <Text layoutX="212.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" text="File Table" />
+                  <ListView fx:id="listOfProgramStatesID" layoutX="312.0" layoutY="95.0" onMouseClicked="#selectedIDchanged" prefHeight="110.0" prefWidth="168.0" />
+                  <Text layoutX="331.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="List of Program States ID" />
+                  <TableView fx:id="symbolicTable" layoutX="478.0" layoutY="71.0" prefHeight="200.0" prefWidth="350.0" />
+                  <ListView fx:id="executableTable" layoutX="478.0" layoutY="271.0" prefHeight="200.0" prefWidth="350.0" />
+                  <Text layoutX="613.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Symbolic Table" />
+                  <Text layoutX="609.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Executable Stack" />
+                  <Text layoutX="336.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please choose one ID! " />
+                  <Button fx:id="oneStepButton" layoutX="349.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#oneStepClicked" text="One Step Only" />
+                  <Text fx:id="StatementName" layoutX="323.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Statement chosen" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Problems">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ListView fx:id="ProblemsListView" layoutX="13.0" layoutY="31.0" onMouseClicked="#getSelectedProblem" prefHeight="457.0" prefWidth="810.0" />
+                  <Text layoutX="295.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please choose one problem from those below!" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
